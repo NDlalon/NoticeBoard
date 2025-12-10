@@ -1,0 +1,1073 @@
+2025/09/24 08:58:53 [error] 3536#19048: *1 CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2025/09/24 09:41:51 [emerg] 9600#10256: invalid number of arguments in "alias" directive in C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/conf/nginx.conf:56
+2025/09/24 09:42:57 [emerg] 10312#3504: invalid number of arguments in "alias" directive in C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/conf/nginx.conf:56
+2025/09/24 09:44:07 [error] 21164#11960: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2025/09/24 09:44:09 [error] 21164#11960: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2025/09/24 09:49:02 [error] 21164#11960: *19 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2025/09/24 09:51:41 [notice] 2768#4924: signal process started
+2025/09/24 10:13:40 [warn] 19972#4596: duplicate extension "js", content type: "application/javascript", previous content type: "application/javascript" in C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/conf/nginx.conf:22
+2025/09/24 10:13:40 [warn] 19972#4596: duplicate extension "wasm", content type: "application/wasm", previous content type: "application/wasm" in C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/conf/nginx.conf:23
+2025/09/24 10:13:40 [warn] 21024#2904: duplicate extension "js", content type: "application/javascript", previous content type: "application/javascript" in C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/conf/nginx.conf:22
+2025/09/24 10:13:40 [warn] 21024#2904: duplicate extension "wasm", content type: "application/wasm", previous content type: "application/wasm" in C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/conf/nginx.conf:23
+2025/09/24 10:15:32 [warn] 6752#18856: duplicate extension "wasm", content type: "application/wasm", previous content type: "application/wasm" in C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/conf/mime.types:56
+2025/09/24 10:15:32 [notice] 6752#18856: signal process started
+2025/09/24 10:15:52 [warn] 19772#2696: duplicate extension "wasm", content type: "application/wasm", previous content type: "application/wasm" in C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/conf/mime.types:56
+2025/09/24 10:15:52 [warn] 14068#12564: duplicate extension "wasm", content type: "application/wasm", previous content type: "application/wasm" in C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/conf/mime.types:56
+2025/09/24 10:16:37 [notice] 19648#10084: signal process started
+2025/09/24 10:19:19 [notice] 3608#4192: signal process started
+2025/09/24 10:22:50 [notice] 11344#20436: signal process started
+2025/09/24 10:26:30 [notice] 5412#12720: signal process started
+2025/09/24 10:38:02 [notice] 21240#8680: signal process started
+2025/09/24 10:40:16 [notice] 21212#10628: signal process started
+2025/09/24 10:40:20 [notice] 10508#13996: signal process started
+2025/09/24 10:47:41 [notice] 15236#3428: signal process started
+2025/09/24 10:48:14 [notice] 13464#19112: signal process started
+2025/09/24 10:54:47 [error] 11376#20244: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1:3230"
+2025/09/24 10:54:50 [error] 11376#20244: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8000/favicon.ico", host: "127.0.0.1:3230", referrer: "http://127.0.0.1:3230/"
+2025/09/24 10:56:21 [notice] 19112#18568: signal process started
+2025/09/24 11:04:56 [notice] 1060#14880: signal process started
+2025/09/24 11:09:02 [notice] 21444#5452: signal process started
+2025/09/24 11:10:34 [notice] 13860#15000: signal process started
+2025/09/24 11:10:53 [notice] 3392#11104: signal process started
+2025/09/24 11:10:53 [error] 3392#11104: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/24 11:15:01 [notice] 7432#6088: signal process started
+2025/09/24 11:15:03 [notice] 6044#13408: signal process started
+2025/09/24 11:16:50 [notice] 10132#8896: signal process started
+2025/09/24 11:21:20 [notice] 11184#16356: signal process started
+2025/09/24 11:24:20 [notice] 21484#15124: signal process started
+2025/09/24 11:31:31 [notice] 17860#8112: signal process started
+2025/09/24 11:31:32 [error] 1372#7424: *152 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.118, server: localhost, request: "GET /ws/updates/12/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/12/", host: "192.168.1.118:3230"
+2025/09/24 11:39:30 [notice] 13544#3020: signal process started
+2025/09/24 11:40:08 [notice] 19776#20424: signal process started
+2025/09/24 11:42:01 [notice] 20156#400: signal process started
+2025/09/24 11:54:50 [notice] 10128#5960: signal process started
+2025/09/24 11:54:52 [notice] 9732#18616: signal process started
+2025/09/24 11:54:52 [error] 9732#18616: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx-1.29.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/24 11:55:49 [notice] 20512#2452: signal process started
+2025/09/24 11:57:05 [notice] 6000#21416: signal process started
+2025/09/24 11:57:36 [notice] 5684#14816: signal process started
+2025/09/24 13:44:11 [notice] 11384#22088: signal process started
+2025/09/24 13:44:45 [notice] 23132#20920: signal process started
+2025/09/24 14:03:46 [notice] 23844#8716: signal process started
+2025/09/24 14:03:59 [notice] 23272#23436: signal process started
+2025/09/24 14:15:46 [notice] 21044#24524: signal process started
+2025/09/24 14:21:48 [emerg] 10112#22340: cannot load certificate "C:/path/to/cert.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(C:/path/to/cert.crt, r) error:10000080:BIO routines::no such file)
+2025/09/24 14:31:38 [notice] 21656#8808: signal process started
+2025/09/25 09:13:50 [notice] 2312#10124: signal process started
+2025/09/25 09:14:14 [notice] 18412#11036: signal process started
+2025/09/25 09:14:26 [notice] 15048#17796: signal process started
+2025/09/25 09:15:15 [notice] 14628#13264: signal process started
+2025/09/25 09:15:15 [error] 14628#13264: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/25 09:29:46 [notice] 13388#17608: signal process started
+2025/09/25 09:31:06 [error] 3728#13212: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2025/09/25 09:31:09 [error] 3728#13212: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8000/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2025/09/25 09:31:41 [notice] 15696#17508: signal process started
+2025/09/25 09:31:44 [notice] 12552#4832: signal process started
+2025/09/25 09:31:44 [error] 12552#4832: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/25 09:31:48 [notice] 18612#18300: signal process started
+2025/09/25 09:31:48 [error] 18612#18300: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/25 09:45:32 [notice] 19652#6020: signal process started
+2025/09/25 09:46:13 [notice] 15620#18620: signal process started
+2025/09/25 09:46:46 [notice] 4460#2104: signal process started
+2025/09/25 09:47:33 [notice] 13804#12612: signal process started
+2025/09/25 09:51:13 [notice] 5284#7912: signal process started
+2025/09/25 09:54:12 [notice] 3476#6084: signal process started
+2025/09/25 09:54:12 [error] 3476#6084: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/25 09:54:57 [notice] 7280#15148: signal process started
+2025/09/25 09:55:00 [notice] 4568#15764: signal process started
+2025/09/25 09:55:00 [error] 4568#15764: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/25 10:39:41 [notice] 16236#5428: signal process started
+2025/09/25 10:40:51 [notice] 21544#21072: signal process started
+2025/09/25 10:44:12 [error] 20856#15392: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.118, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "192.168.1.118", referrer: "http://192.168.1.118/"
+2025/09/25 10:44:15 [notice] 21420#4832: signal process started
+2025/09/25 10:44:15 [error] 21420#4832: OpenEvent("Global\ngx_stop_10344") failed (2: The system cannot find the file specified)
+2025/09/25 10:45:39 [notice] 10052#20264: signal process started
+2025/09/25 10:47:47 [notice] 17900#7700: signal process started
+2025/09/25 10:48:46 [notice] 5200#12416: signal process started
+2025/09/25 10:49:12 [notice] 22336#21776: signal process started
+2025/09/25 10:50:20 [notice] 18408#13252: signal process started
+2025/09/25 10:50:33 [notice] 5912#22292: signal process started
+2025/09/25 10:52:47 [error] 21112#16964: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.118, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "192.168.1.118", referrer: "http://192.168.1.118/edit_page/"
+2025/09/25 10:52:52 [notice] 15580#3844: signal process started
+2025/09/25 10:53:31 [notice] 5856#12452: signal process started
+2025/09/25 11:06:19 [notice] 10036#13572: signal process started
+2025/09/25 11:06:48 [notice] 16436#21744: signal process started
+2025/09/25 11:08:14 [notice] 21440#15912: signal process started
+2025/09/25 11:09:05 [notice] 13240#17088: signal process started
+2025/09/25 11:11:06 [notice] 12840#19196: signal process started
+2025/09/25 11:14:30 [notice] 21564#4996: signal process started
+2025/09/25 14:12:32 [notice] 688#20192: signal process started
+2025/09/25 14:48:07 [notice] 24480#23028: signal process started
+2025/09/25 14:48:41 [notice] 8300#24108: signal process started
+2025/09/25 14:49:21 [notice] 10532#5692: signal process started
+2025/09/25 14:49:49 [notice] 7340#21784: signal process started
+2025/09/25 14:52:25 [notice] 17440#22548: signal process started
+2025/09/25 14:53:01 [notice] 21228#21528: signal process started
+2025/09/25 14:54:01 [notice] 17120#22868: signal process started
+2025/09/25 14:55:22 [notice] 452#11592: signal process started
+2025/09/25 14:58:18 [notice] 19224#23936: signal process started
+2025/09/25 15:07:56 [notice] 10572#22852: signal process started
+2025/09/25 15:07:57 [notice] 19932#23500: signal process started
+2025/09/25 15:08:13 [notice] 23884#24564: signal process started
+2025/09/25 15:09:44 [notice] 5792#24536: signal process started
+2025/09/25 15:12:05 [notice] 17884#3408: signal process started
+2025/09/25 15:12:06 [notice] 10108#23584: signal process started
+2025/09/25 15:12:06 [error] 10108#23584: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/25 15:12:27 [notice] 20624#10688: signal process started
+2025/09/25 15:12:27 [error] 20624#10688: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/25 15:13:02 [notice] 13888#4956: signal process started
+2025/09/25 15:14:20 [notice] 17828#2772: signal process started
+2025/09/25 15:14:57 [notice] 3716#23680: signal process started
+2025/09/25 15:28:17 [notice] 7972#20284: signal process started
+2025/09/25 15:28:29 [notice] 17424#21604: signal process started
+2025/09/25 15:31:50 [notice] 23428#19364: signal process started
+2025/09/25 16:12:57 [error] 6548#21264: *1037 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while proxying upgraded connection, client: 192.168.1.114, server: localhost, request: "GET /ws/updates/12/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/12/", host: "192.168.1.118"
+2025/09/25 16:12:57 [notice] 19024#2820: signal process started
+2025/09/26 12:11:42 [notice] 20576#19888: signal process started
+2025/09/26 15:00:49 [notice] 20848#20888: signal process started
+2025/09/26 15:55:18 [notice] 11592#9280: signal process started
+2025/09/26 15:56:04 [notice] 3248#1240: signal process started
+2025/09/26 16:10:00 [notice] 11468#5844: signal process started
+2025/09/26 16:10:30 [notice] 22036#21620: signal process started
+2025/09/30 11:49:50 [error] 18952#1336: *171 client intended to send too large body: 1923274 bytes, client: 192.168.1.104, server: localhost, request: "POST /edit_page/12/uploadImage/ HTTP/1.1", host: "192.168.1.104", referrer: "http://192.168.1.104/edit_page/12/uploadImage/"
+2025/09/30 11:51:47 [error] 18952#1336: *177 client intended to send too large body: 6402638 bytes, client: 192.168.1.104, server: localhost, request: "POST /edit_page/12/uploadImage/ HTTP/1.1", host: "192.168.1.104", referrer: "http://192.168.1.104/edit_page/12/uploadImage/"
+2025/09/30 11:52:05 [error] 18952#1336: *192 client intended to send too large body: 97998542 bytes, client: 192.168.1.104, server: localhost, request: "POST /edit_page/12/uploadVideo/ HTTP/1.1", host: "192.168.1.104", referrer: "http://192.168.1.104/edit_page/12/uploadVideo/"
+2025/09/30 11:57:17 [notice] 2232#5176: signal process started
+2025/09/30 12:02:04 [notice] 2756#2004: signal process started
+2025/09/30 13:48:44 [notice] 7988#22420: signal process started
+2025/10/01 08:24:28 [notice] 18076#3712: signal process started
+2025/10/01 09:34:32 [error] 4428#7980: *6 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while proxying upgraded connection, client: 127.0.0.1, server: localhost, request: "GET /ws/updates/12/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/12/", host: "127.0.0.1"
+2025/10/01 09:40:03 [notice] 2268#7928: signal process started
+2025/10/01 09:40:15 [notice] 20432#14516: signal process started
+2025/10/01 09:42:45 [notice] 18276#18772: signal process started
+2025/10/01 09:43:06 [notice] 10328#11408: signal process started
+2025/10/01 09:43:58 [notice] 9888#2276: signal process started
+2025/10/01 09:45:38 [notice] 13688#13296: signal process started
+2025/10/01 09:50:00 [notice] 13028#9648: signal process started
+2025/10/09 09:16:23 [error] 8#5040: *4 CreateFile() "C:/Users/user0701/Desktop/temp project/NoticeBoard/NoticeBoard/static/css/login.css" failed (2: The system cannot find the file specified), client: 192.168.1.101, server: localhost, request: "GET /static/css/login.css HTTP/1.1", host: "192.168.1.101", referrer: "http://192.168.1.101/login/?next=/add_page/"
+2025/10/09 09:16:29 [error] 8#5040: *4 CreateFile() "C:/Users/user0701/Desktop/temp project/NoticeBoard/NoticeBoard/static/css/login.css" failed (2: The system cannot find the file specified), client: 192.168.1.101, server: localhost, request: "GET /static/css/login.css HTTP/1.1", host: "192.168.1.101", referrer: "http://192.168.1.101/login/?next=/add_page/"
+2025/10/09 09:16:31 [error] 8#5040: *4 CreateFile() "C:/Users/user0701/Desktop/temp project/NoticeBoard/NoticeBoard/static/css/login.css" failed (2: The system cannot find the file specified), client: 192.168.1.101, server: localhost, request: "GET /static/css/login.css HTTP/1.1", host: "192.168.1.101", referrer: "http://192.168.1.101/login/?next=/edit_page/"
+2025/10/09 09:16:41 [error] 8#5040: *152 CreateFile() "C:/Users/user0701/Desktop/temp project/NoticeBoard/NoticeBoard/static/css/login.css" failed (2: The system cannot find the file specified), client: 192.168.1.101, server: localhost, request: "GET /static/css/login.css HTTP/1.1", host: "192.168.1.101", referrer: "http://192.168.1.101/login/?next=/add_page/"
+2025/10/09 09:17:04 [notice] 17892#16728: signal process started
+2025/10/14 14:38:30 [error] 9868#21384: *1 CreateFile() "C:/Users/user0701/Desktop/temp project/NoticeBoard/NoticeBoard/static/css/login.css" failed (2: The system cannot find the file specified), client: 192.168.1.113, server: localhost, request: "GET /static/css/login.css HTTP/1.1", host: "192.168.1.113", referrer: "http://192.168.1.113/login/?next=/add_page/"
+2025/10/14 14:39:03 [notice] 10036#10056: signal process started
+2025/10/14 14:57:55 [notice] 22452#22436: signal process started
+2025/12/08 09:53:08 [notice] 1040#12780: signal process started
+2025/12/08 11:34:53 [notice] 21124#14924: signal process started
+2025/12/08 11:35:13 [error] 18676#10508: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.124, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "192.168.1.124", referrer: "http://192.168.1.124/add_page/"
+2025/12/08 11:37:24 [notice] 7488#13984: signal process started
+2025/12/08 11:37:24 [notice] 17508#4532: signal process started
+2025/12/08 11:44:15 [notice] 4892#18444: signal process started
+2025/12/08 11:44:15 [error] 4892#18444: OpenEvent("Global\ngx_stop_10700") failed (2: The system cannot find the file specified)
+2025/12/08 11:47:32 [notice] 19712#21124: signal process started
+2025/12/08 11:48:28 [notice] 18168#17432: signal process started
+2025/12/08 11:51:16 [notice] 3552#4272: signal process started
+2025/12/08 11:51:16 [notice] 5604#9316: signal process started
+2025/12/08 11:54:42 [notice] 9468#444: signal process started
+2025/12/08 11:54:42 [notice] 4028#18364: signal process started
+2025/12/08 14:26:04 [notice] 37468#37472: signal process started
+2025/12/08 14:26:05 [notice] 37488#37492: signal process started
+2025/12/08 14:26:05 [notice] 37512#37516: signal process started
+2025/12/08 14:26:05 [notice] 37532#37536: signal process started
+2025/12/08 14:26:05 [notice] 37552#37556: signal process started
+2025/12/08 14:26:05 [notice] 37572#37576: signal process started
+2025/12/08 14:26:05 [notice] 37592#37596: signal process started
+2025/12/08 14:26:05 [notice] 37612#37616: signal process started
+2025/12/08 14:26:05 [notice] 37632#37636: signal process started
+2025/12/08 14:26:05 [notice] 37652#37656: signal process started
+2025/12/08 14:26:05 [error] 37652#37656: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:05 [notice] 37672#37676: signal process started
+2025/12/08 14:26:05 [error] 37672#37676: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:05 [notice] 37692#37696: signal process started
+2025/12/08 14:26:05 [error] 37692#37696: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:05 [notice] 37712#37716: signal process started
+2025/12/08 14:26:05 [error] 37712#37716: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:05 [notice] 37732#37736: signal process started
+2025/12/08 14:26:05 [error] 37732#37736: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:05 [notice] 37752#37756: signal process started
+2025/12/08 14:26:05 [error] 37752#37756: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:05 [notice] 37772#37776: signal process started
+2025/12/08 14:26:05 [error] 37772#37776: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:05 [notice] 37796#37800: signal process started
+2025/12/08 14:26:05 [error] 37796#37800: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:05 [notice] 24288#37548: signal process started
+2025/12/08 14:26:05 [error] 24288#37548: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:05 [notice] 37276#37272: signal process started
+2025/12/08 14:26:05 [error] 37276#37272: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 36408#37688: signal process started
+2025/12/08 14:26:06 [error] 36408#37688: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 37672#36332: signal process started
+2025/12/08 14:26:06 [error] 37672#36332: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 36308#37708: signal process started
+2025/12/08 14:26:06 [error] 36308#37708: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 36004#37768: signal process started
+2025/12/08 14:26:06 [error] 36004#37768: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 36876#36960: signal process started
+2025/12/08 14:26:06 [error] 36876#36960: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 37560#37556: signal process started
+2025/12/08 14:26:06 [error] 37560#37556: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 36348#36552: signal process started
+2025/12/08 14:26:06 [error] 36348#36552: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 36028#36024: signal process started
+2025/12/08 14:26:06 [error] 36028#36024: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 37008#37004: signal process started
+2025/12/08 14:26:06 [error] 37008#37004: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 37104#37204: signal process started
+2025/12/08 14:26:06 [error] 37104#37204: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 37308#24960: signal process started
+2025/12/08 14:26:06 [error] 37308#24960: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 37300#37316: signal process started
+2025/12/08 14:26:06 [error] 37300#37316: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 37816#35772: signal process started
+2025/12/08 14:26:06 [error] 37816#35772: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 36508#36424: signal process started
+2025/12/08 14:26:06 [error] 36508#36424: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 35660#35656: signal process started
+2025/12/08 14:26:06 [error] 35660#35656: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 35920#35924: signal process started
+2025/12/08 14:26:06 [error] 35920#35924: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 37832#37476: signal process started
+2025/12/08 14:26:06 [error] 37832#37476: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 37468#37188: signal process started
+2025/12/08 14:26:06 [error] 37468#37188: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 37504#37500: signal process started
+2025/12/08 14:26:06 [error] 37504#37500: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:06 [notice] 34516#34512: signal process started
+2025/12/08 14:26:06 [error] 34516#34512: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 35644#35548: signal process started
+2025/12/08 14:26:07 [error] 35644#35548: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 36332#37672: signal process started
+2025/12/08 14:26:07 [error] 36332#37672: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 35544#35448: signal process started
+2025/12/08 14:26:07 [error] 35544#35448: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 37688#37684: signal process started
+2025/12/08 14:26:07 [error] 37688#37684: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 36232#36228: signal process started
+2025/12/08 14:26:07 [error] 36232#36228: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 14180#36552: signal process started
+2025/12/08 14:26:07 [error] 14180#36552: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 37724#37716: signal process started
+2025/12/08 14:26:07 [error] 37724#37716: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 36132#36124: signal process started
+2025/12/08 14:26:07 [error] 36132#36124: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 37744#37736: signal process started
+2025/12/08 14:26:07 [error] 37744#37736: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 36104#37760: signal process started
+2025/12/08 14:26:07 [error] 36104#37760: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 35928#36000: signal process started
+2025/12/08 14:26:07 [error] 35928#36000: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 37788#37776: signal process started
+2025/12/08 14:26:07 [error] 37788#37776: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 35796#35792: signal process started
+2025/12/08 14:26:07 [error] 35796#35792: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 37808#37796: signal process started
+2025/12/08 14:26:07 [error] 37808#37796: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 35092#35096: signal process started
+2025/12/08 14:26:07 [error] 35092#35096: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 35596#37840: signal process started
+2025/12/08 14:26:07 [error] 35596#37840: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 37864#37872: signal process started
+2025/12/08 14:26:07 [error] 37864#37872: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 37880#36908: signal process started
+2025/12/08 14:26:07 [error] 37880#36908: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 36900#36028: signal process started
+2025/12/08 14:26:07 [error] 36900#36028: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 37112#37012: signal process started
+2025/12/08 14:26:07 [notice] 37108#21532: signal process started
+2025/12/08 14:26:07 [error] 37112#37012: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [error] 37108#21532: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [notice] 37212#37204: signal process started
+2025/12/08 14:26:07 [notice] 34868#34864: signal process started
+2025/12/08 14:26:07 [error] 37212#37204: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:07 [error] 34868#34864: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37348#37352: signal process started
+2025/12/08 14:26:08 [notice] 37308#37340: signal process started
+2025/12/08 14:26:08 [error] 37348#37352: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 37308#37340: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37396#37384: signal process started
+2025/12/08 14:26:08 [notice] 37380#37388: signal process started
+2025/12/08 14:26:08 [error] 37396#37384: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 37380#37388: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37820#37432: signal process started
+2025/12/08 14:26:08 [notice] 37452#37444: signal process started
+2025/12/08 14:26:08 [error] 37820#37432: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 37452#37444: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 35920#37676: signal process started
+2025/12/08 14:26:08 [notice] 34416#34412: signal process started
+2025/12/08 14:26:08 [error] 35920#37676: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 34416#34412: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 34296#34292: signal process started
+2025/12/08 14:26:08 [notice] 37832#34300: signal process started
+2025/12/08 14:26:08 [error] 34296#34292: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 37832#34300: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37468#34200: signal process started
+2025/12/08 14:26:08 [notice] 34196#34192: signal process started
+2025/12/08 14:26:08 [error] 37468#34200: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 34196#34192: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37088#37084: signal process started
+2025/12/08 14:26:08 [notice] 37080#37160: signal process started
+2025/12/08 14:26:08 [error] 37088#37084: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 37080#37160: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37520#37512: signal process started
+2025/12/08 14:26:08 [notice] 36984#36980: signal process started
+2025/12/08 14:26:08 [error] 37520#37512: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 36984#36980: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37536#36880: signal process started
+2025/12/08 14:26:08 [notice] 37540#36884: signal process started
+2025/12/08 14:26:08 [error] 37536#36880: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 37540#36884: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 35444#37568: signal process started
+2025/12/08 14:26:08 [error] 35444#37568: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37564#35348: signal process started
+2025/12/08 14:26:08 [error] 37564#35348: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 35248#23540: signal process started
+2025/12/08 14:26:08 [error] 35248#23540: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 36356#37556: signal process started
+2025/12/08 14:26:08 [error] 36356#37556: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37588#37584: signal process started
+2025/12/08 14:26:08 [notice] 35244#35148: signal process started
+2025/12/08 14:26:08 [error] 35244#35148: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 37588#37584: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 36812#37604: signal process started
+2025/12/08 14:26:08 [notice] 37608#37600: signal process started
+2025/12/08 14:26:08 [error] 36812#37604: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 37608#37600: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37620#37628: signal process started
+2025/12/08 14:26:08 [error] 37620#37628: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37488#37624: signal process started
+2025/12/08 14:26:08 [error] 37488#37624: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 36708#37648: signal process started
+2025/12/08 14:26:08 [notice] 36632#36628: signal process started
+2025/12/08 14:26:08 [error] 36708#37648: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 36632#36628: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 36512#37448: signal process started
+2025/12/08 14:26:08 [notice] 36532#36608: signal process started
+2025/12/08 14:26:08 [error] 36532#36608: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 36512#37448: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 37296#37292: signal process started
+2025/12/08 14:26:08 [error] 37296#37292: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 34048#34044: signal process started
+2025/12/08 14:26:08 [error] 34048#34044: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 34132#34088: signal process started
+2025/12/08 14:26:08 [notice] 34100#33976: signal process started
+2025/12/08 14:26:08 [error] 34132#34088: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 34100#33976: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 23148#34748: signal process started
+2025/12/08 14:26:08 [error] 23148#34748: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 34732#37272: signal process started
+2025/12/08 14:26:08 [error] 34732#37272: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 35648#35744: signal process started
+2025/12/08 14:26:08 [notice] 34728#34608: signal process started
+2025/12/08 14:26:08 [error] 35648#35744: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 34728#34608: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [notice] 33948#33944: signal process started
+2025/12/08 14:26:08 [notice] 34512#34516: signal process started
+2025/12/08 14:26:08 [error] 33948#33944: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:08 [error] 34512#34516: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 33844#33840: signal process started
+2025/12/08 14:26:09 [notice] 35644#33848: signal process started
+2025/12/08 14:26:09 [error] 33844#33840: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 35644#33848: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 33376#33820: signal process started
+2025/12/08 14:26:09 [notice] 33384#22304: signal process started
+2025/12/08 14:26:09 [error] 33376#33820: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 33384#22304: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 32908#33424: signal process started
+2025/12/08 14:26:09 [error] 32908#33424: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 24752#37692: signal process started
+2025/12/08 14:26:09 [error] 24752#37692: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 16756#33720: signal process started
+2025/12/08 14:26:09 [notice] 36304#36208: signal process started
+2025/12/08 14:26:09 [error] 16756#33720: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 36304#36208: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 37708#37728: signal process started
+2025/12/08 14:26:09 [notice] 33556#37720: signal process started
+2025/12/08 14:26:09 [error] 33556#37720: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 37708#37728: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 37712#37716: signal process started
+2025/12/08 14:26:09 [notice] 36128#35572: signal process started
+2025/12/08 14:26:09 [error] 37712#37716: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 36128#35572: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 37748#36204: signal process started
+2025/12/08 14:26:09 [error] 37748#36204: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 36124#36132: signal process started
+2025/12/08 14:26:09 [error] 36124#36132: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 37740#37736: signal process started
+2025/12/08 14:26:09 [notice] 37744#33084: signal process started
+2025/12/08 14:26:09 [error] 37740#37736: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 37744#33084: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 32984#32980: signal process started
+2025/12/08 14:26:09 [notice] 37760#36104: signal process started
+2025/12/08 14:26:09 [error] 32984#32980: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 37760#36104: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 35928#32884: signal process started
+2025/12/08 14:26:09 [error] 35928#32884: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 32880#32876: signal process started
+2025/12/08 14:26:09 [error] 32880#32876: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 37788#15356: signal process started
+2025/12/08 14:26:09 [error] 37788#15356: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 32784#32780: signal process started
+2025/12/08 14:26:09 [error] 32784#32780: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 35796#32356: signal process started
+2025/12/08 14:26:09 [notice] 32360#32252: signal process started
+2025/12/08 14:26:09 [error] 32360#32252: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 35796#32356: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 7900#32156: signal process started
+2025/12/08 14:26:09 [notice] 5844#12848: signal process started
+2025/12/08 14:26:09 [error] 7900#32156: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 5844#12848: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 31852#32712: signal process started
+2025/12/08 14:26:09 [notice] 32732#32728: signal process started
+2025/12/08 14:26:09 [error] 31852#32712: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 32732#32728: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 32628#32708: signal process started
+2025/12/08 14:26:09 [notice] 32612#37884: signal process started
+2025/12/08 14:26:09 [error] 32628#32708: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 32612#37884: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 32512#36024: signal process started
+2025/12/08 14:26:09 [notice] 32528#32608: signal process started
+2025/12/08 14:26:09 [error] 32512#36024: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 32528#32608: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 35068#35072: signal process started
+2025/12/08 14:26:09 [notice] 32508#32412: signal process started
+2025/12/08 14:26:09 [error] 35068#35072: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 32508#32412: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 26012#24616: signal process started
+2025/12/08 14:26:09 [notice] 32312#34960: signal process started
+2025/12/08 14:26:09 [error] 26012#24616: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 32312#34960: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 35048#32236: signal process started
+2025/12/08 14:26:09 [error] 35048#32236: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 32232#32228: signal process started
+2025/12/08 14:26:09 [error] 32232#32228: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 34860#34864: signal process started
+2025/12/08 14:26:09 [notice] 37328#37332: signal process started
+2025/12/08 14:26:09 [error] 34860#34864: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 37328#37332: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 37376#37372: signal process started
+2025/12/08 14:26:09 [notice] 37212#32112: signal process started
+2025/12/08 14:26:09 [error] 37376#37372: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 37212#32112: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 32036#32032: signal process started
+2025/12/08 14:26:09 [notice] 32028#32108: signal process started
+2025/12/08 14:26:09 [error] 32036#32032: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [error] 32028#32108: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 37412#37400: signal process started
+2025/12/08 14:26:09 [error] 37412#37400: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:09 [notice] 37388#37380: signal process started
+2025/12/08 14:26:09 [error] 37388#37380: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 37480#37280: signal process started
+2025/12/08 14:26:10 [notice] 31912#37484: signal process started
+2025/12/08 14:26:10 [error] 31912#37484: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 37480#37280: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 31832#31828: signal process started
+2025/12/08 14:26:10 [notice] 37424#31836: signal process started
+2025/12/08 14:26:10 [error] 31832#31828: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 37424#31836: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 34416#35924: signal process started
+2025/12/08 14:26:10 [notice] 34488#34412: signal process started
+2025/12/08 14:26:10 [error] 34488#34412: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 34416#35924: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 37260#23560: signal process started
+2025/12/08 14:26:10 [notice] 34384#37184: signal process started
+2025/12/08 14:26:10 [error] 34384#37184: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 37260#23560: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 31028#31520: signal process started
+2025/12/08 14:26:10 [notice] 31128#31020: signal process started
+2025/12/08 14:26:10 [error] 31028#31520: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 31128#31020: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 37188#31704: signal process started
+2025/12/08 14:26:10 [notice] 34192#34196: signal process started
+2025/12/08 14:26:10 [error] 37188#31704: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 34192#34196: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 37516#37528: signal process started
+2025/12/08 14:26:10 [notice] 852#37836: signal process started
+2025/12/08 14:26:10 [error] 852#37836: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 37516#37528: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 31600#31596: signal process started
+2025/12/08 14:26:10 [error] 31600#31596: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 31676#31580: signal process started
+2025/12/08 14:26:10 [error] 31676#31580: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 31504#31500: signal process started
+2025/12/08 14:26:10 [notice] 36984#37524: signal process started
+2025/12/08 14:26:10 [error] 36984#37524: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 31504#31500: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 37768#35372: signal process started
+2025/12/08 14:26:10 [error] 37768#35372: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 35368#37532: signal process started
+2025/12/08 14:26:10 [error] 35368#37532: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 31396#31476: signal process started
+2025/12/08 14:26:10 [notice] 31380#35272: signal process started
+2025/12/08 14:26:10 [error] 31396#31476: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 31380#35272: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 35364#31304: signal process started
+2025/12/08 14:26:10 [notice] 35348#37564: signal process started
+2025/12/08 14:26:10 [error] 35364#31304: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 35348#37564: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 35168#37552: signal process started
+2025/12/08 14:26:10 [notice] 36352#37556: signal process started
+2025/12/08 14:26:10 [error] 35168#37552: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 36352#37556: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 36828#37572: signal process started
+2025/12/08 14:26:10 [notice] 35248#31180: signal process started
+2025/12/08 14:26:10 [error] 36828#37572: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 35248#31180: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 37588#35164: signal process started
+2025/12/08 14:26:10 [error] 37588#35164: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 31104#31100: signal process started
+2025/12/08 14:26:10 [error] 31104#31100: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 36728#37592: signal process started
+2025/12/08 14:26:10 [error] 36728#37592: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 37604#36812: signal process started
+2025/12/08 14:26:10 [error] 37604#36812: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 30980#34584: signal process started
+2025/12/08 14:26:10 [notice] 34592#37616: signal process started
+2025/12/08 14:26:10 [error] 30980#34584: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 34592#37616: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 30900#30896: signal process started
+2025/12/08 14:26:10 [notice] 30976#37628: signal process started
+2025/12/08 14:26:10 [error] 30900#30896: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 30976#37628: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 36612#36628: signal process started
+2025/12/08 14:26:10 [notice] 37636#37640: signal process started
+2025/12/08 14:26:10 [error] 36612#36628: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 37636#37640: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 37464#37436: signal process started
+2025/12/08 14:26:10 [notice] 30876#30780: signal process started
+2025/12/08 14:26:10 [error] 30876#30780: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 37464#37436: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 36512#36528: signal process started
+2025/12/08 14:26:10 [notice] 30664#30668: signal process started
+2025/12/08 14:26:10 [error] 30664#30668: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 36512#36528: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 37324#34168: signal process started
+2025/12/08 14:26:10 [notice] 37292#37296: signal process started
+2025/12/08 14:26:10 [error] 37324#34168: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 37292#37296: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [notice] 34892#35768: signal process started
+2025/12/08 14:26:10 [notice] 29768#35772: signal process started
+2025/12/08 14:26:10 [error] 34892#35768: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:10 [error] 29768#35772: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 30716#34088: signal process started
+2025/12/08 14:26:11 [notice] 30640#30636: signal process started
+2025/12/08 14:26:11 [error] 30716#34088: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 30640#30636: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 34732#34752: signal process started
+2025/12/08 14:26:11 [notice] 36508#37272: signal process started
+2025/12/08 14:26:11 [error] 34732#34752: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 36508#37272: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 34492#35656: signal process started
+2025/12/08 14:26:11 [error] 34492#35656: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 35660#34604: signal process started
+2025/12/08 14:26:11 [error] 35660#34604: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 30444#30440: signal process started
+2025/12/08 14:26:11 [error] 30444#30440: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 30436#30516: signal process started
+2025/12/08 14:26:11 [error] 30436#30516: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 33944#33948: signal process started
+2025/12/08 14:26:11 [error] 33944#33948: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 34508#30416: signal process started
+2025/12/08 14:26:11 [error] 34508#30416: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 35472#35464: signal process started
+2025/12/08 14:26:11 [error] 35472#35464: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 33824#37672: signal process started
+2025/12/08 14:26:11 [error] 33824#37672: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 33848#35644: signal process started
+2025/12/08 14:26:11 [notice] 30236#30316: signal process started
+2025/12/08 14:26:11 [error] 33848#35644: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 30236#30316: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 33360#30144: signal process started
+2025/12/08 14:26:11 [notice] 22304#33384: signal process started
+2025/12/08 14:26:11 [error] 33360#30144: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 22304#33384: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 37704#33740: signal process started
+2025/12/08 14:26:11 [notice] 33744#37688: signal process started
+2025/12/08 14:26:11 [error] 37704#33740: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 33744#37688: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 30020#33572: signal process started
+2025/12/08 14:26:11 [notice] 33424#32908: signal process started
+2025/12/08 14:26:11 [error] 30020#33572: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 33424#32908: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 36208#36304: signal process started
+2025/12/08 14:26:11 [error] 36208#36304: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 33736#29944: signal process started
+2025/12/08 14:26:11 [error] 33736#29944: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 33552#33420: signal process started
+2025/12/08 14:26:11 [notice] 14180#37720: signal process started
+2025/12/08 14:26:11 [error] 33552#33420: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 14180#37720: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 29916#29820: signal process started
+2025/12/08 14:26:11 [notice] 33276#33280: signal process started
+2025/12/08 14:26:11 [error] 29916#29820: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 33276#33280: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 29744#29740: signal process started
+2025/12/08 14:26:11 [notice] 37712#33404: signal process started
+2025/12/08 14:26:11 [error] 29744#29740: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 37712#33404: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 33160#33256: signal process started
+2025/12/08 14:26:11 [notice] 36204#37748: signal process started
+2025/12/08 14:26:11 [error] 33160#33256: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 36204#37748: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 33156#33076: signal process started
+2025/12/08 14:26:11 [notice] 29208#37752: signal process started
+2025/12/08 14:26:11 [error] 33156#33076: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 29208#37752: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 37732#29688: signal process started
+2025/12/08 14:26:11 [notice] 29684#29680: signal process started
+2025/12/08 14:26:11 [error] 37732#29688: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 29684#29680: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 32976#36104: signal process started
+2025/12/08 14:26:11 [notice] 37760#32980: signal process started
+2025/12/08 14:26:11 [error] 32976#36104: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 37760#32980: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 32956#37772: signal process started
+2025/12/08 14:26:11 [notice] 32860#22812: signal process started
+2025/12/08 14:26:11 [error] 32956#37772: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 32860#22812: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 32884#35928: signal process started
+2025/12/08 14:26:11 [error] 32884#35928: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 29480#29560: signal process started
+2025/12/08 14:26:11 [error] 29480#29560: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 32780#32784: signal process started
+2025/12/08 14:26:11 [notice] 37776#29388: signal process started
+2025/12/08 14:26:11 [error] 32780#32784: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 37776#29388: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [notice] 37796#35088: signal process started
+2025/12/08 14:26:11 [notice] 37800#32160: signal process started
+2025/12/08 14:26:11 [error] 37796#35088: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:11 [error] 37800#32160: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 29284#29280: signal process started
+2025/12/08 14:26:12 [notice] 29360#29264: signal process started
+2025/12/08 14:26:12 [error] 29284#29280: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 29360#29264: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 5844#32156: signal process started
+2025/12/08 14:26:12 [notice] 7900#37808: signal process started
+2025/12/08 14:26:12 [error] 5844#32156: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 7900#37808: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 37840#37856: signal process started
+2025/12/08 14:26:12 [notice] 37860#32636: signal process started
+2025/12/08 14:26:12 [error] 37840#37856: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 37860#32636: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 29080#29160: signal process started
+2025/12/08 14:26:12 [notice] 29064#32536: signal process started
+2025/12/08 14:26:12 [error] 29080#29160: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 29064#32536: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 37884#32612: signal process started
+2025/12/08 14:26:12 [notice] 32632#28984: signal process started
+2025/12/08 14:26:12 [error] 37884#32612: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 32632#28984: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 36904#32608: signal process started
+2025/12/08 14:26:12 [notice] 32436#36908: signal process started
+2025/12/08 14:26:12 [error] 36904#32608: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 32436#36908: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 28956#28860: signal process started
+2025/12/08 14:26:12 [error] 28956#28860: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 32328#32332: signal process started
+2025/12/08 14:26:12 [error] 32328#32332: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 28784#28780: signal process started
+2025/12/08 14:26:12 [error] 28784#28780: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 28776#28856: signal process started
+2025/12/08 14:26:12 [error] 28776#28856: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 21532#34964: signal process started
+2025/12/08 14:26:12 [notice] 37004#24616: signal process started
+2025/12/08 14:26:12 [error] 21532#34964: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 37004#24616: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 28756#28624: signal process started
+2025/12/08 14:26:12 [notice] 37112#37012: signal process started
+2025/12/08 14:26:12 [error] 37112#37012: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 28756#28624: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 28012#28008: signal process started
+2025/12/08 14:26:12 [notice] 32232#37108: signal process started
+2025/12/08 14:26:12 [error] 28012#28008: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 32232#37108: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 32132#37304: signal process started
+2025/12/08 14:26:12 [error] 32132#37304: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 37332#37328: signal process started
+2025/12/08 14:26:12 [error] 37332#37328: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 37356#37348: signal process started
+2025/12/08 14:26:12 [notice] 37352#37360: signal process started
+2025/12/08 14:26:12 [error] 37356#37348: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 37352#37360: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 28488#28580: signal process started
+2025/12/08 14:26:12 [notice] 32112#37212: signal process started
+2025/12/08 14:26:12 [error] 28488#28580: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 32112#37212: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 32108#32028: signal process started
+2025/12/08 14:26:12 [error] 32108#32028: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 24960#28392: signal process started
+2025/12/08 14:26:12 [error] 24960#28392: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 31936#37384: signal process started
+2025/12/08 14:26:12 [error] 31936#37384: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 31932#37368: signal process started
+2025/12/08 14:26:12 [error] 31932#37368: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 37412#28268: signal process started
+2025/12/08 14:26:12 [notice] 28364#37400: signal process started
+2025/12/08 14:26:12 [error] 37412#28268: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 28364#37400: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 37480#32008: signal process started
+2025/12/08 14:26:12 [error] 37480#32008: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 31912#37280: signal process started
+2025/12/08 14:26:12 [error] 31912#37280: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 31908#37824: signal process started
+2025/12/08 14:26:12 [notice] 34388#31812: signal process started
+2025/12/08 14:26:12 [error] 31908#37824: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 34388#31812: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 28084#28164: signal process started
+2025/12/08 14:26:12 [notice] 28068#37676: signal process started
+2025/12/08 14:26:12 [error] 28084#28164: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 28068#37676: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 37472#27988: signal process started
+2025/12/08 14:26:12 [error] 37472#27988: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 35924#34416: signal process started
+2025/12/08 14:26:12 [error] 35924#34416: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 34296#34300: signal process started
+2025/12/08 14:26:12 [notice] 37180#23560: signal process started
+2025/12/08 14:26:12 [error] 34296#34300: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 37180#23560: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [notice] 27960#27864: signal process started
+2025/12/08 14:26:12 [notice] 37164#37492: signal process started
+2025/12/08 14:26:12 [error] 27960#27864: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:12 [error] 37164#37492: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 27780#27860: signal process started
+2025/12/08 14:26:13 [notice] 27788#27784: signal process started
+2025/12/08 14:26:13 [error] 27780#27860: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [error] 27788#27784: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 31700#31696: signal process started
+2025/12/08 14:26:13 [error] 31700#31696: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 31704#37188: signal process started
+2025/12/08 14:26:13 [error] 31704#37188: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 37080#37084: signal process started
+2025/12/08 14:26:13 [notice] 460#37504: signal process started
+2025/12/08 14:26:13 [error] 37080#37084: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [error] 460#37504: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 23188#27244: signal process started
+2025/12/08 14:26:13 [error] 23188#27244: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 27252#27248: signal process started
+2025/12/08 14:26:13 [error] 27252#27248: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 31600#31580: signal process started
+2025/12/08 14:26:13 [notice] 20012#31596: signal process started
+2025/12/08 14:26:13 [error] 31600#31580: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [error] 20012#31596: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 31480#37512: signal process started
+2025/12/08 14:26:13 [notice] 31496#37524: signal process started
+2025/12/08 14:26:13 [error] 31480#37512: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [error] 31496#37524: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 27548#27544: signal process started
+2025/12/08 14:26:13 [notice] 27540#27620: signal process started
+2025/12/08 14:26:13 [error] 27548#27544: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [error] 27540#27620: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 37532#35368: signal process started
+2025/12/08 14:26:13 [error] 37532#35368: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 35372#37768: signal process started
+2025/12/08 14:26:13 [error] 35372#37768: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 35268#36560: signal process started
+2025/12/08 14:26:13 [notice] 36876#35264: signal process started
+2025/12/08 14:26:13 [error] 35268#36560: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [error] 36876#35264: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 31476#31396: signal process started
+2025/12/08 14:26:13 [error] 31476#31396: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 27420#27304: signal process started
+2025/12/08 14:26:13 [error] 27420#27304: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 35364#35444: signal process started
+2025/12/08 14:26:13 [notice] 27228#27224: signal process started
+2025/12/08 14:26:13 [error] 35364#35444: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [error] 27228#27224: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 31200#35344: signal process started
+2025/12/08 14:26:13 [error] 31200#35344: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:13 [notice] 36356#31276: signal process started
+2025/12/08 14:26:13 [error] 36356#31276: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 14:26:29 [error] 23004#996: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.124, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "192.168.1.124", referrer: "http://192.168.1.124/add_page/"
+2025/12/08 14:59:28 [notice] 28476#25092: signal process started
+2025/12/08 15:03:08 [notice] 18292#2892: signal process started
+2025/12/08 15:07:52 [notice] 28552#28560: signal process started
+2025/12/08 15:07:52 [notice] 3376#12768: signal process started
+2025/12/08 15:30:56 [notice] 29944#26444: signal process started
+2025/12/08 15:59:47 [notice] 22156#32256: signal process started
+2025/12/08 16:23:12 [notice] 29044#25404: signal process started
+2025/12/08 16:30:18 [notice] 2192#33268: signal process started
+2025/12/08 16:30:48 [notice] 27288#10248: signal process started
+2025/12/08 16:31:57 [notice] 33936#29972: signal process started
+2025/12/08 16:32:08 [notice] 20956#34856: signal process started
+2025/12/08 16:32:08 [notice] 28284#24528: signal process started
+2025/12/08 16:37:46 [notice] 10852#30580: signal process started
+2025/12/08 16:37:46 [notice] 26208#25416: signal process started
+2025/12/08 16:37:46 [error] 26208#25416: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 33244#22432: signal process started
+2025/12/08 16:37:46 [error] 33244#22432: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 23896#10252: signal process started
+2025/12/08 16:37:46 [error] 23896#10252: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 3584#17172: signal process started
+2025/12/08 16:37:46 [error] 3584#17172: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 13588#26128: signal process started
+2025/12/08 16:37:46 [error] 13588#26128: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 34384#16028: signal process started
+2025/12/08 16:37:46 [error] 34384#16028: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 28004#27852: signal process started
+2025/12/08 16:37:46 [error] 28004#27852: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 17532#35472: signal process started
+2025/12/08 16:37:46 [error] 17532#35472: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 28500#28716: signal process started
+2025/12/08 16:37:46 [error] 28500#28716: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 28344#31208: signal process started
+2025/12/08 16:37:46 [error] 28344#31208: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 23916#23148: signal process started
+2025/12/08 16:37:46 [error] 23916#23148: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 3904#34364: signal process started
+2025/12/08 16:37:46 [error] 3904#34364: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 26524#33328: signal process started
+2025/12/08 16:37:46 [error] 26524#33328: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:46 [notice] 15224#16256: signal process started
+2025/12/08 16:37:46 [error] 15224#16256: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 22980#21824: signal process started
+2025/12/08 16:37:47 [error] 22980#21824: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 24700#25532: signal process started
+2025/12/08 16:37:47 [error] 24700#25532: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 27472#26960: signal process started
+2025/12/08 16:37:47 [error] 27472#26960: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 10248#27288: signal process started
+2025/12/08 16:37:47 [error] 10248#27288: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 24400#25880: signal process started
+2025/12/08 16:37:47 [error] 24400#25880: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 27032#32888: signal process started
+2025/12/08 16:37:47 [error] 27032#32888: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 2936#37324: signal process started
+2025/12/08 16:37:47 [error] 2936#37324: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 23596#24036: signal process started
+2025/12/08 16:37:47 [error] 23596#24036: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 27168#32420: signal process started
+2025/12/08 16:37:47 [error] 27168#32420: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 33260#35936: signal process started
+2025/12/08 16:37:47 [error] 33260#35936: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 29884#36368: signal process started
+2025/12/08 16:37:47 [error] 29884#36368: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:37:47 [notice] 35632#19056: signal process started
+2025/12/08 16:37:47 [error] 35632#19056: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:22 [notice] 36760#23116: signal process started
+2025/12/08 16:38:22 [notice] 31940#36216: signal process started
+2025/12/08 16:38:22 [notice] 25508#7044: signal process started
+2025/12/08 16:38:22 [notice] 14988#11240: signal process started
+2025/12/08 16:38:22 [notice] 32860#32248: signal process started
+2025/12/08 16:38:22 [notice] 32780#36020: signal process started
+2025/12/08 16:38:22 [notice] 32472#21740: signal process started
+2025/12/08 16:38:23 [notice] 23300#35308: signal process started
+2025/12/08 16:38:23 [notice] 30264#4340: signal process started
+2025/12/08 16:38:23 [notice] 27504#35860: signal process started
+2025/12/08 16:38:23 [notice] 33252#24108: signal process started
+2025/12/08 16:38:23 [notice] 24812#35100: signal process started
+2025/12/08 16:38:23 [error] 24812#35100: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 34388#26352: signal process started
+2025/12/08 16:38:23 [error] 34388#26352: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 16980#9336: signal process started
+2025/12/08 16:38:23 [error] 16980#9336: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 10624#18452: signal process started
+2025/12/08 16:38:23 [error] 10624#18452: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 28680#13460: signal process started
+2025/12/08 16:38:23 [error] 28680#13460: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 22180#36660: signal process started
+2025/12/08 16:38:23 [error] 22180#36660: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 26084#27612: signal process started
+2025/12/08 16:38:23 [error] 26084#27612: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 35828#11972: signal process started
+2025/12/08 16:38:23 [error] 35828#11972: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 960#37176: signal process started
+2025/12/08 16:38:23 [error] 960#37176: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 29948#31196: signal process started
+2025/12/08 16:38:23 [error] 29948#31196: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 36560#28452: signal process started
+2025/12/08 16:38:23 [error] 36560#28452: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 33920#30376: signal process started
+2025/12/08 16:38:23 [error] 33920#30376: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 33876#19472: signal process started
+2025/12/08 16:38:23 [error] 33876#19472: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 31504#33612: signal process started
+2025/12/08 16:38:23 [error] 31504#33612: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:38:23 [notice] 21500#25576: signal process started
+2025/12/08 16:38:23 [error] 21500#25576: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 28100#25816: signal process started
+2025/12/08 16:41:03 [notice] 30944#17944: signal process started
+2025/12/08 16:41:03 [error] 30944#17944: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 28748#33776: signal process started
+2025/12/08 16:41:03 [error] 28748#33776: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 29076#29844: signal process started
+2025/12/08 16:41:03 [error] 29076#29844: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 32464#16212: signal process started
+2025/12/08 16:41:03 [error] 32464#16212: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 27732#34252: signal process started
+2025/12/08 16:41:03 [error] 27732#34252: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 22524#26180: signal process started
+2025/12/08 16:41:03 [error] 22524#26180: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 16620#13284: signal process started
+2025/12/08 16:41:03 [error] 16620#13284: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 28504#21156: signal process started
+2025/12/08 16:41:03 [error] 28504#21156: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 25264#1272: signal process started
+2025/12/08 16:41:03 [error] 25264#1272: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 13688#26308: signal process started
+2025/12/08 16:41:03 [error] 13688#26308: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 32164#35532: signal process started
+2025/12/08 16:41:03 [error] 32164#35532: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 28168#31404: signal process started
+2025/12/08 16:41:03 [error] 28168#31404: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 32596#21256: signal process started
+2025/12/08 16:41:03 [error] 32596#21256: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 29620#14764: signal process started
+2025/12/08 16:41:03 [error] 29620#14764: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:41:03 [notice] 31664#29252: signal process started
+2025/12/08 16:41:03 [error] 31664#29252: CreateFile() "C:\Users\user0701\Desktop\temp project\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/08 16:43:12 [notice] 13460#28680: signal process started
+2025/12/08 16:43:27 [notice] 28844#24856: signal process started
+2025/12/08 17:02:25 [notice] 25920#33652: signal process started
+2025/12/08 17:10:29 [notice] 20140#27144: signal process started
+2025/12/08 17:18:39 [notice] 27576#19220: signal process started
+2025/12/08 17:28:49 [notice] 22804#16996: signal process started
+2025/12/09 09:07:49 [notice] 10684#18876: signal process started
+2025/12/09 10:18:01 [notice] 16352#16052: signal process started
+2025/12/09 10:26:02 [notice] 21204#20812: signal process started
+2025/12/09 10:28:22 [notice] 1164#18660: signal process started
+2025/12/09 10:29:19 [notice] 4904#5300: signal process started
+2025/12/09 10:33:18 [notice] 7332#19872: signal process started
+2025/12/09 10:35:38 [notice] 11280#21296: signal process started
+2025/12/09 10:35:42 [notice] 15876#7512: signal process started
+2025/12/09 10:36:51 [notice] 3292#21488: signal process started
+2025/12/09 10:39:11 [notice] 6952#1040: signal process started
+2025/12/09 10:39:40 [notice] 3648#9928: signal process started
+2025/12/09 10:40:00 [notice] 460#13376: signal process started
+2025/12/09 10:40:33 [notice] 11408#2844: signal process started
+2025/12/09 10:41:43 [notice] 18740#1556: signal process started
+2025/12/09 10:42:59 [notice] 276#20576: signal process started
+2025/12/09 10:43:06 [error] 8812#17244: *1 CreateFile() "C:/Users/user0701/Desktop/temp project//NoticeBoard/static/css/indexStyleSheet.css" failed (3: The system cannot find the path specified), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/09 10:43:09 [error] 8812#17244: *1 CreateFile() "C:/Users/user0701/Desktop/temp project//NoticeBoard/static/css/indexStyleSheet.css" failed (3: The system cannot find the path specified), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/09 10:43:10 [error] 8812#17244: *1 CreateFile() "C:/Users/user0701/Desktop/temp project//NoticeBoard/static/css/indexStyleSheet.css" failed (3: The system cannot find the path specified), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/09 10:43:50 [notice] 748#17136: signal process started
+2025/12/09 10:45:51 [notice] 21124#3868: signal process started
+2025/12/09 10:48:15 [notice] 3632#8492: signal process started
+2025/12/09 14:30:01 [notice] 22904#4060: signal process started
+2025/12/09 14:31:39 [notice] 18660#23204: signal process started
+2025/12/09 14:41:50 [notice] 4020#14916: signal process started
+2025/12/09 14:50:17 [notice] 5616#20776: signal process started
+2025/12/09 15:47:34 [notice] 21608#21712: signal process started
+2025/12/09 15:47:34 [error] 21608#21712: CreateFile() "c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/09 15:47:55 [notice] 14084#19856: signal process started
+2025/12/09 15:48:13 [notice] 19872#6452: signal process started
+2025/12/09 15:48:32 [error] 22872#23376: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.124, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "192.168.1.124"
+2025/12/09 15:58:56 [notice] 23092#17996: signal process started
+2025/12/09 16:04:10 [notice] 13664#22644: signal process started
+2025/12/09 16:09:17 [notice] 22324#22976: signal process started
+2025/12/09 16:10:38 [notice] 17192#21200: signal process started
+2025/12/09 16:26:01 [notice] 14400#7360: signal process started
+2025/12/09 16:38:03 [notice] 5244#22016: signal process started
+2025/12/09 16:39:32 [notice] 21916#8052: signal process started
+2025/12/09 16:39:33 [error] 2684#22112: *3 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while proxying upgraded connection, client: 192.168.1.124, server: localhost, request: "GET /ws/updates/15/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/15/", host: "192.168.1.124"
+2025/12/09 16:43:38 [notice] 5388#23452: signal process started
+2025/12/09 16:43:38 [error] 14984#16380: *42 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while proxying upgraded connection, client: 192.168.1.124, server: localhost, request: "GET /ws/updates/15/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/15/", host: "192.168.1.124"
+2025/12/09 16:48:02 [notice] 21068#15864: signal process started
+2025/12/09 16:51:18 [notice] 19596#21084: signal process started
+2025/12/09 17:08:52 [notice] 15192#5424: signal process started
+2025/12/09 17:13:22 [notice] 18772#4144: signal process started
+2025/12/09 17:13:22 [error] 11448#13684: *160 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while proxying upgraded connection, client: 192.168.1.124, server: localhost, request: "GET /ws/updates/15/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/15/", host: "192.168.1.124"
+2025/12/09 17:13:22 [error] 11448#13684: *9 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while proxying upgraded connection, client: 192.168.1.124, server: localhost, request: "GET /ws/updates/12/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/12/", host: "192.168.1.124"
+2025/12/09 17:18:56 [notice] 10900#16852: signal process started
+2025/12/09 17:18:56 [error] 13016#21004: *283 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while proxying upgraded connection, client: 192.168.1.124, server: localhost, request: "GET /ws/updates/15/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/15/", host: "192.168.1.124"
+2025/12/09 17:18:56 [error] 13016#21004: *3 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while proxying upgraded connection, client: 192.168.1.124, server: localhost, request: "GET /ws/updates/15/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/15/", host: "192.168.1.124"
+2025/12/09 17:25:10 [notice] 6592#21712: signal process started
+2025/12/09 17:25:10 [error] 18252#10652: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while proxying upgraded connection, client: 192.168.1.124, server: localhost, request: "GET /ws/updates/15/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/15/", host: "192.168.1.124"
+2025/12/10 10:18:54 [notice] 9384#15992: signal process started
+2025/12/10 10:18:54 [error] 9384#15992: CreateFile() "c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/10 10:20:16 [notice] 16824#2240: signal process started
+2025/12/10 10:20:16 [alert] 9596#10060: CloseHandle(00000238) failed (6: The handle is invalid)
+2025/12/10 10:20:42 [notice] 12168#1920: signal process started
+2025/12/10 10:33:47 [notice] 9404#3432: signal process started
+2025/12/10 10:33:47 [error] 9404#3432: CreateFile() "c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/10 10:36:31 [notice] 7620#7716: signal process started
+2025/12/10 10:36:31 [alert] 21460#10352: CloseHandle(00000230) failed (6: The handle is invalid)
+2025/12/10 10:38:11 [notice] 17848#18040: signal process started
+2025/12/10 10:48:50 [notice] 1352#5936: signal process started
+2025/12/10 10:54:47 [emerg] 13196#11300: unexpected "c" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:51
+2025/12/10 10:55:02 [emerg] 13912#3636: unexpected "c" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:51
+2025/12/10 10:56:09 [emerg] 11716#1180: unexpected "}" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:49
+2025/12/10 10:56:24 [emerg] 10028#11384: unexpected "}" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:49
+2025/12/10 10:56:34 [emerg] 3120#3720: unexpected "}" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:49
+2025/12/10 10:57:18 [emerg] 692#3908: unexpected "}" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:49
+2025/12/10 10:57:27 [emerg] 19812#5880: unexpected "}" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:48
+2025/12/10 10:57:59 [emerg] 9460#12060: unexpected "}" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:48
+2025/12/10 10:58:01 [emerg] 9904#9776: directive "alias" is not terminated by ";" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:49
+2025/12/10 10:58:06 [emerg] 21048#16644: directive "alias" is not terminated by ";" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:49
+2025/12/10 11:00:21 [emerg] 16400#20540: unexpected "}" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:49
+2025/12/10 11:01:33 [notice] 12732#11068: signal process started
+2025/12/10 11:01:33 [error] 12732#11068: CreateFile() "c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/12/10 11:01:36 [emerg] 20920#10040: unexpected "}" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:49
+2025/12/10 11:02:27 [emerg] 12076#3896: unexpected "}" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:49
+2025/12/10 11:02:39 [crit] 10088#10300: *1 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:03:49 [notice] 9908#13664: signal process started
+2025/12/10 11:03:53 [crit] 6652#1384: *1 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:03:55 [crit] 6652#1384: *3 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:03:56 [crit] 6652#1384: *5 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:04:29 [crit] 6652#1384: *7 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:04:31 [emerg] 16728#3772: unexpected "c" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:51
+2025/12/10 11:04:46 [emerg] 7316#15764: unexpected "c" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:51
+2025/12/10 11:05:08 [crit] 6652#1384: *9 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:05:09 [crit] 6652#1384: *11 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:06:51 [emerg] 17492#14496: unexpected "c" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:51
+2025/12/10 11:08:47 [emerg] 9180#11812: unexpected "c" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:51
+2025/12/10 11:10:40 [emerg] 7020#7896: unexpected "c" in c:\Users\user0701\Desktop\temp project\NoticeBoard\NoticeBoard\nginx/conf/nginx.conf:51
+2025/12/10 11:10:47 [crit] 6652#1384: *13 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:10:48 [crit] 6652#1384: *15 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:10:48 [crit] 6652#1384: *17 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:11:14 [crit] 6652#1384: *19 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/layout1.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/layout1.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/board/12"
+2025/12/10 11:11:14 [crit] 6652#1384: *21 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ javaScript/layout1_SyncL.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/javaScript/layout1_SyncL.js HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/board/12"
+2025/12/10 11:11:14 [crit] 6652#1384: *22 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ javaScript/pdfjs/pdf.mjs" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/javaScript/pdfjs/pdf.mjs HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/board/12"
+2025/12/10 11:13:13 [notice] 6052#5576: signal process started
+2025/12/10 11:13:21 [crit] 6652#1384: *23 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/layout1.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/layout1.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/board/12"
+2025/12/10 11:13:21 [crit] 6652#1384: *25 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ javaScript/layout1_SyncL.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/javaScript/layout1_SyncL.js HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/board/12"
+2025/12/10 11:13:21 [crit] 6652#1384: *26 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ javaScript/pdfjs/pdf.mjs" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/javaScript/pdfjs/pdf.mjs HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/board/12"
+2025/12/10 11:13:23 [crit] 6652#1384: *27 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:13:23 [crit] 6652#1384: *29 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:13:24 [crit] 6652#1384: *31 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:13:24 [crit] 6652#1384: *33 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:13:24 [crit] 6652#1384: *35 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:13:25 [crit] 6652#1384: *37 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:13:25 [crit] 6652#1384: *39 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/login.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/login.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/login/?next=/add_page/"
+2025/12/10 11:13:40 [notice] 20848#3720: signal process started
+2025/12/10 11:15:22 [notice] 14008#16660: signal process started
+2025/12/10 11:15:37 [emerg] 20052#13676: no "events" section in configuration
+2025/12/10 11:15:40 [crit] 6652#1384: *42 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:15:54 [emerg] 3544#18456: no "events" section in configuration
+2025/12/10 11:16:08 [crit] 6652#1384: *44 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:16:08 [crit] 6652#1384: *46 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:16:09 [crit] 6652#1384: *48 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:16:20 [notice] 17248#4444: signal process started
+2025/12/10 11:16:24 [crit] 6652#1384: *50 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:16:25 [crit] 6652#1384: *52 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:16:26 [crit] 6652#1384: *54 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:16:26 [crit] 6652#1384: *56 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:16:36 [crit] 6652#1384: *58 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:16:37 [crit] 6652#1384: *60 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:16:54 [notice] 13916#15968: signal process started
+2025/12/10 11:17:32 [crit] 6652#1384: *61 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:17:32 [crit] 6652#1384: *63 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:17:36 [notice] 5936#3856: signal process started
+2025/12/10 11:17:56 [crit] 6652#1384: *65 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:17:57 [crit] 6652#1384: *67 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:18:11 [notice] 20332#18120: signal process started
+2025/12/10 11:22:34 [crit] 6652#1384: *69 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:22:42 [notice] 3612#19804: signal process started
+2025/12/10 11:22:53 [crit] 6652#1384: *71 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:22:53 [crit] 6652#1384: *73 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:22:53 [crit] 6652#1384: *75 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:22:54 [crit] 6652#1384: *77 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:23:04 [notice] 20984#16360: signal process started
+2025/12/10 11:23:11 [crit] 6652#1384: *79 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:23:11 [crit] 6652#1384: *81 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:23:11 [crit] 6652#1384: *83 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:23:11 [crit] 6652#1384: *85 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:23:12 [crit] 6652#1384: *87 CreateFile() "c:\Users\user0701\Desktop	emp project\NoticeBoard\NoticeBoard\static\ css/indexStyleSheet.css" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.124, server: localhost, request: "GET /static/css/indexStyleSheet.css HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 11:25:14 [notice] 12396#3772: signal process started
+2025/12/10 11:26:05 [notice] 2620#8420: signal process started
+2025/12/10 11:28:04 [notice] 8536#12824: signal process started
+2025/12/10 11:30:39 [notice] 21472#1140: signal process started
+2025/12/10 11:30:39 [error] 10780#13284: *4 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while proxying upgraded connection, client: 192.168.1.124, server: localhost, request: "GET /ws/updates/12/ HTTP/1.1", upstream: "http://127.0.0.1:8000/ws/updates/12/", host: "192.168.1.124"
+2025/12/10 11:45:06 [notice] 20696#21108: signal process started
+2025/12/10 11:49:22 [notice] 21116#10104: signal process started
+2025/12/10 11:50:22 [notice] 19612#164: signal process started
+2025/12/10 11:53:36 [notice] 11856#19620: signal process started
+2025/12/10 11:56:46 [notice] 7992#13892: signal process started
