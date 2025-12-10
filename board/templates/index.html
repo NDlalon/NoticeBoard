@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多媒體控制面板</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/indexStyleSheet.css' %}">
+    {% if view_mode == 'editDetail' %}
+        <script src="{% static 'javaScript/detailPageTableControls.js' %}"></script>
+        <script>const csrftoken = "{{ csrf_token }}";</script>
+    {% endif %}
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>多媒體控制面板</h2>
+            <ul>
+                <li><a href="{% url 'home' %}">首頁</a></li>
+                <li><a href="{% url 'add' %}">新增頁面</a></li>
+                <li><a href="{% url 'edit' %}">編輯頁面</a>
+            </ul>
+        </div>
+        <div class="main-content">
+            <!-- 首頁 -->
+            {% if view_mode == 'list' %}
+                <div class="content-box">
+                    <h2>所有頁面</h2>
+                    <div class="page-list">
+                        {% for page in pages %}
+                            <a href="{% url 'board' page.id%}" class="page-item">
+                                {{page.pageName}}
+                            </a>
+                        {% empty %}
+                            <p>目前沒有頁面</p>
+                        {% endfor %}
+                    </div>
+                </div>
+            <!-- 新增頁面 -->
+            {% elif view_mode == 'add' %}
+                <div class="content-box">
+                    <h2>新增頁面</h2>
+                    <div class="form-container">
+                        <form method="POST" action="{% url 'add' %}">
+                            {% csrf_token %}
+                            <label for="name" ><h3>頁面名稱:</h3></label>
+                            <input type="text" id="name" name="title" placeholder="請輸入頁面名稱" required>
+                            <label for="Layout" ><h3><br>選擇版面:</h3></label>
+                            <div class="radio-container">
+                                <label>
+                                    <input type="radio" name="Layout" value="1" checked required>
+                                    <img src="{% static 'contain/layout1.jpg' %}" alt="版面1" class="radio-image">
+                                </label>
+                                <label>
+                                    <input type="radio" name="Layout" value="3"  required>
+                                    <img src="{% static 'contain/layout3.jpg' %}" alt="版面3" class="radio-image">
+                                </label>
+                            </div>
+                            <button type="submit">新增</button>
+                        </form>
+                    </div>
+                </div>
+            <!-- 編輯頁面 -->
+            {% elif view_mode == 'edit' %}
+                <div class="content-box">
+                    <h2>選擇編輯頁面</h2>
+                    <div class="page-list">
+                        {% for page in pages %}
+                            <a href="{% url 'editDetail' page.id %}" class="page-item">
+                                {{page.pageName}}
+                            </a>
+                        {% empty %}
+                            <p>目前沒有頁面</p>
+                        {% endfor %}
+                    </div>
+                </div>
+            <!-- 詳細資料編輯頁面 -->
+             {% elif view_mode == 'editDetail' %}
+                <div id="page_id" data-page_id={{page_id}}></div> <!-- 提供page_id給js -->
+                <div class="content-box">
+                    <h2>編輯頁面內容</h2>
+                    <div class="button-group">
+                        <a class="action-button" href="{% url 'uploadPDF' page_id %}">新增PDF</a>
+                        <a class="action-button" href="{% url 'uploadImage' page_id %}">新增圖片</a>
+                        <a class="action-button" href="{% url 'uploadVideo' page_id %}">新增影片</a>
+                        {% if marquee %}
+                        <a class="action-button" href="{% url 'uploadTextMessage' page_id %}">新增跑馬燈</a>
+                        {% endif %}
+                        <form id="pageDeleteForm" action="{% url 'deletePage' page_id %}" method="post">
+                            {% csrf_token %}
+                            <button class="action-button delete-button" type="submit">刪除頁面</button>
+                        </form>
+                    </div>
+                    <form id='deleteForm' method="post" action="{% url 'deleteItem' page_id %}">
+                        {% csrf_token %}
+                        <button class="action-button delete-button" id="deleteButton" type="submit" disabled>刪除</button>
+                        <button class="action-button arrange-Button" id="arrangeButton" type="button" {% if not has_items %} disabled {% endif %}>更改顯示順序</button>
+                        <button class="action-button arrange-Button" id="arrangeButton-cancel" type="button" hidden>取消</button>
+                        <input type="number" class="delayInput" id="autoPlayDelayInput" type="button" value={{autoPlayDelay}} min="0" oninput="validity.valid||(value='')" hidden>
+                        <button class="action-button arrange-Button" id="autoPlayDelayButton" type="button" value={{autoPlayDelay}} {% if not has_items %} disabled {% endif %}>每頁更新時間:{{autoPlayDelay}}秒</button>
+                        <button class="action-button arrange-Button" id="reloadButton" type="button">重新整理</button>
+                        <div class="table-container">
+                            <table id="DetailTable">
+                                <thead>
+                                    <tr>
+                                        <th class="checkbox-cell"><input type="checkbox" id="selectAll"></th>
+                                        <th>類型</th>
+                                        <th>標題</th>
+                                        <th>內容</th>
+                                        <th>新增時間</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="DetailTableBody">
+                                    {% if has_items %}
+                                        {% for type,item in items %}
+                                            {% for res in item %}
+                                                <tr value="{{res.display_order}}">
+                                                    <td class="checkbox-cell"><input type="checkbox" class="rowCheckbox DetailCheckbox" name='selected_item' value="{{ type }}:{{ res.id }}"></td>
+                                                    <td>{{ type }}</td>
+                                                    <td>{{ res.title }}</td>
+                                                    <td>{{ res.pdf_file.name}}{{ res.image_file.name}}{{res.text}}{{res.video_file.name}}</td>
+                                                    <td>{{ res.creatTime|date:"Y-m-d H:i:s" }} </td>
+                                                </tr>
+                                            {% endfor %}
+                                        {% endfor %}
+                                    {% else %}
+                                        <tr>
+                                            <td colspan="5">目前沒有內容</td>
+                                        </tr>
+                                    {% endif %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                </div>
+            <!-- 上傳PDF頁面 -->
+            {% elif view_mode == 'uploadPDF' %}
+                <div class="form-container">
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div>
+                            <label for="{{ form.pageID.id_for_label }}">Page ID(自動設定):</label>
+                            <input type="number" name="{{ form.pageID.html_name }}" required id="{{ form.pageID.id_for_label }}" value = '{{page_id}}' readonly>
+                        </div>
+                        <div>
+                            <label for="{{ form.title.id_for_label }}">標題:</label>
+                            {{ form.title }}
+                        </div>
+                        <div>
+                            <label for="{{ form.pdf_file.id_for_label }}">PDF檔案:</label>
+                            <input type="file" name="{{ form.pdf_file.html_name }}" id="{{ form.pdf_file.id_for_label }}" accept="application/pdf" required>
+                            {% if form.pdf_file.errors %}
+                                <div class="error">{{ form.pdf_file.errors }}</div>
+                            {% endif %}
+                        </div>
+                        <button type="submit">上傳</button>
+                    </form>
+                </div>
+            <!-- 上傳image頁面 -->
+            {% elif view_mode == 'uploadImage' %}
+                <div class="form-container">
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div>
+                            <label for="{{ form.pageID.id_for_label }}">Page ID(自動設定):</label>
+                            <input type="number" name="{{ form.pageID.html_name }}" required id="{{ form.pageID.id_for_label }}" value = '{{page_id}}' readonly>
+                        </div>
+                        <div>
+                            <label for="{{ form.title.id_for_label }}">標題:</label>
+                            {{ form.title }}
+                        </div>
+                        <div>
+                            <label for="{{ form.image_file.id_for_label }}">圖片檔案:</label>
+                            <input type="file" name="{{ form.image_file.html_name }}" id="{{ form.image_file.id_for_label }}" accept=".jpg,.jpeg,.png" required>
+                            {% if form.image_file.errors %}
+                                <div class="error">{{ form.image_file.errors }}</div>
+                            {% endif %}
+                        </div>
+                        <button type="submit">上傳</button>
+                    </form>
+                </div>
+            <!-- 上傳video頁面 -->
+            {% elif view_mode == 'uploadVideo' %}
+                <div class="form-container">
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div>
+                            <label for="{{ form.pageID.id_for_label }}">Page ID(自動設定):</label>
+                            <input type="number" name="{{ form.pageID.html_name }}" required id="{{ form.pageID.id_for_label }}" value = '{{page_id}}' readonly>
+                        </div>
+                        <div>
+                            <label for="{{ form.title.id_for_label }}">標題:</label>
+                            {{ form.title }}
+                        </div>
+                        <div>
+                            <label for="{{ form.video_file.id_for_label }}">影片檔案:</label>
+                            <input type="file" name="{{ form.video_file.html_name }}" id="{{ form.video_file.id_for_label }}" accept=".mp4" required>
+                            {% if form.video_file.errors %}
+                                <div class="error">{{ form.video_file.errors }}</div>
+                            {% endif %}
+                        </div>
+                        <button type="submit">上傳</button>
+                    </form>
+                </div>    
+            <!-- 編輯跑馬燈 -->
+             {% elif view_mode == 'uploadTextMessage' %}
+                <div class="form-container">
+                    <form method="post">
+                        {% csrf_token %}
+                        <div>
+                            <label for="{{ form.pageID.id_for_label }}">Page ID(自動設定):</label>
+                            <input type="number" name="{{ form.pageID.html_name }}" required id="{{ form.pageID.id_for_label }}" value = '{{page_id}}' readonly>
+                        </div>
+                        <div>
+                            <label for="{{ form.text.id_for_label }}">內容:</label> 
+                            <input type="text" name="{{ form.text.html_name }}" required id="{{ form.text.id_for_label }}">
+                        </div>
+                        <button type="submit">儲存</button>
+                    </form>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電子告示牌</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/layout1.css' %}">
+    <!-- <script src="{% static 'javaScript/layout1_mb.js' %}"></script> -->
+    <script src="{% static 'javaScript/layout1_SyncL.js' %}"></script>
+    <script type="module">
+        import * as pdfjsLib from "{% static 'javaScript/pdfjs/pdf.mjs' %}";
+        pdfjsLib.GlobalWorkerOptions.workerSrc = "{% static 'javaScript/pdfjs/pdf.worker.mjs' %}"; 
+        const wasmUrl = "{% static 'javaScript/pdfjs/wasm/' %}";      
+
+        // 讓全域可用
+        window.pdfjsLib = pdfjsLib;
+        window.wasmUrl=wasmUrl;
+    </script>
+</head>
+<body>
+    <!-- 提供page_id給js -->
+    <div id="page_id" data-page_id={{page_id}}></div>
+    <!-- 日期時間區域 -->
+    <div class="datetime-section">
+        <div class="datetime-container">
+            <div class="date" id="current-date"></div>
+            <div class="time" id="current-time"></div>
+        </div>
+    </div>
+
+    <!-- 跑馬燈區域 -->
+    <div class="marquee-section">
+        <div class="marquee-container">
+            <div class="marquee-text" id="marquee-text">
+                歡迎使用電子告示牌系統 • 請注意重要公告事項 • 如有疑問請聯繫管理員
+            </div>
+        </div>
+    </div>
+
+    <!-- 內容顯示區域 -->
+    <div class="content-section">
+        <div class="content-container">
+            <!-- 範例內容項目 -->
+            <div class="content-item active">
+                <div class="placeholder">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        載入內容中...
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 頁面指示器 -->
+            <div class="page-indicator">
+                <span id="current-page">1</span> / <span id="total-pages">1</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

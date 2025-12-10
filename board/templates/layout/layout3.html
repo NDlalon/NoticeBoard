@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>電子告示牌</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/layout3.css' %}">
+  <script src="{% static 'javaScript/layout3_SyncL.js' %}"></script>
+  <script type="module">
+        import * as pdfjsLib from "{% static 'javaScript/pdfjs/pdf.mjs' %}";
+        pdfjsLib.GlobalWorkerOptions.workerSrc = "{% static 'javaScript/pdfjs/pdf.worker.mjs' %}"; 
+        const wasmUrl = "{% static 'javaScript/pdfjs/wasm/' %}";      
+
+        // 讓全域可用
+        window.pdfjsLib = pdfjsLib;
+        window.wasmUrl=wasmUrl;
+    </script>
+</head>
+<body>
+  <!-- 提供page_id給js -->
+  <div id="page_id" data-page_id={{page_id}}></div>
+
+  <div class="grid-container">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-top">
+        <h1 class="title">電子告示牌</h1>
+        <div></div><!-- 排版用 -->
+        <div class="datetime">
+          <div class="date" id="current-date"></div>
+          <div class="time" id="current-time"></div>
+        </div>
+      </div>
+      <div class="marquee-container">
+        <div class="marquee-text" id="marquee-text">
+          歡迎使用電子告示牌系統 • 請注意重要公告事項 • 如有疑問請聯繫管理員
+        </div>
+      </div>
+    </div>
+    
+    
+
+    <!-- 第一欄：圖片輪播 -->
+    <div class="image-container">
+      <h2>圖片</h2>
+      <div class="content-container">
+        <div class="content-item active">
+          <div class="placeholder">
+            <div class="loading">
+              <div class="spinner"></div>
+                載入內容中...
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第二欄：PDF -->
+    <div class="pdf-container">
+      <h2>公告</h2>
+      <div class="content-container">
+        <div class="content-item active">
+          <div class="placeholder">
+            <div class="loading">
+              <div class="spinner"></div>
+                載入內容中...
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第三欄：公告 -->
+    <div class="video-container">
+      <h2>影片</h2>
+      <div class="content-container">
+        <div class="content-item active">
+          <div class="placeholder">
+            <div class="loading">
+              <div class="spinner"></div>
+                載入內容中...
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer"></div>
+
+  </div>
+
+</body>
+</html>
