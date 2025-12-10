@@ -63,14 +63,14 @@ newconf=[]
 for f in file:
     if(staticflag):
         spaces = len(f) - len(f.lstrip(" "))
-        newline=f"{' '*spaces}alias \"{BASE_DIR}\static\\\";\n"
+        newline=f"{' '*spaces}alias \"{EXEC_DIR}\static\\\";\n"
         newline=newline.replace('\\','/')
         newconf.append(newline)
         staticflag=False
         continue
     elif(mediaflag):
         spaces = len(f) - len(f.lstrip(" "))
-        newline=f"{' '*spaces}alias \"{BASE_DIR}\media\\\";\n"
+        newline=f"{' '*spaces}alias \"{EXEC_DIR}\media\\\";\n"
         newline=newline.replace('\\','/')
         newconf.append(newline)
         mediaflag=False
