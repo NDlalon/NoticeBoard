@@ -30,9 +30,11 @@ D_PORT = "8000"
 if getattr(sys, 'frozen', False):
     BASE_DIR = sys._MEIPASS  # runtime folder
     EXEC_DIR = os.path.dirname(sys.executable)  # dist/noticeboard/
+    STAC_DIR=os.path.join(BASE_DIR,"NoticeBoard")
 else:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     EXEC_DIR = BASE_DIR
+    STAC_DIR=BASE_DIR
 
 NGINX_DIR = os.path.join(EXEC_DIR, "nginx")
 NGINX_EXE = os.path.join(NGINX_DIR, "nginx")
@@ -63,14 +65,14 @@ newconf=[]
 for f in file:
     if(staticflag):
         spaces = len(f) - len(f.lstrip(" "))
-        newline=f"{' '*spaces}alias \"{EXEC_DIR}\static\\\";\n"
+        newline=f"{' '*spaces}alias \"{STAC_DIR}\static\\\";\n"
         newline=newline.replace('\\','/')
         newconf.append(newline)
         staticflag=False
         continue
     elif(mediaflag):
         spaces = len(f) - len(f.lstrip(" "))
-        newline=f"{' '*spaces}alias \"{EXEC_DIR}\media\\\";\n"
+        newline=f"{' '*spaces}alias \"{BASE_DIR}\media\\\";\n"
         newline=newline.replace('\\','/')
         newconf.append(newline)
         mediaflag=False
