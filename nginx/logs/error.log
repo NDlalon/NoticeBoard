@@ -1071,3 +1071,13 @@
 2025/12/10 11:50:22 [notice] 19612#164: signal process started
 2025/12/10 11:53:36 [notice] 11856#19620: signal process started
 2025/12/10 11:56:46 [notice] 7992#13892: signal process started
+2025/12/10 14:52:31 [notice] 9628#1052: signal process started
+2025/12/10 15:07:35 [notice] 16540#20456: signal process started
+2025/12/10 15:10:47 [notice] 13796#16592: signal process started
+2025/12/10 15:14:10 [notice] 4860#11388: signal process started
+2025/12/10 15:14:32 [error] 3792#20756: *1 CreateFile() "c:/Users/user0701/Desktop/temp project/NoticeBoard/NoticeBoard/static/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.1.124, server: localhost, request: "GET /static/favicon.ico HTTP/1.1", host: "192.168.1.124", referrer: "http://192.168.1.124/"
+2025/12/10 15:15:22 [notice] 4008#21644: signal process started
+2025/12/10 15:16:40 [notice] 22424#13816: signal process started
+2025/12/10 15:23:33 [notice] 14644#17080: signal process started
+2025/12/10 15:25:38 [notice] 22396#5884: signal process started
+2025/12/10 15:28:48 [notice] 4432#13136: signal process started

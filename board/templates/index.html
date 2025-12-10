@@ -6,6 +6,7 @@
     <title>多媒體控制面板</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/indexStyleSheet.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'favicon.ico' %}">
     {% if view_mode == 'editDetail' %}
         <script src="{% static 'javaScript/detailPageTableControls.js' %}"></script>
         <script>const csrftoken = "{{ csrf_token }}";</script>
