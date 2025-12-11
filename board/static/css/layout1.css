@@ -75,7 +75,7 @@ body {
     color: #FFD700;
     font-size: clamp(1.2rem, 2.5vw, 3rem);
     font-weight: bold;
-    white-space: nowrap;
+    white-space: pre;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 
     display: inline-block;
